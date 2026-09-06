@@ -1,0 +1,56 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.469022",
+   "Default View_TopLeft":"-130,-612",
+   "ExpandedHierarchyInLayout":"",
+   "HierExpandStatus_comment_0":"false",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port mipi_phy_if -pg 1 -lvl 0 -x 0 -y 310 -defaultsOSRD
+preplace port iic -pg 1 -lvl 11 -x 3600 -y 530 -defaultsOSRD
+preplace portBus raspi_enable -pg 1 -lvl 11 -x 3600 -y 60 -defaultsOSRD
+preplace inst raw10_to_y8_pack_0 -pg 1 -lvl 6 -x 1770 -y 360 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 8 -x 2680 -y 430 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 350 -y 490 -defaultsOSRD
+preplace inst axis_subset_converter_0 -pg 1 -lvl 5 -x 1440 -y 340 -defaultsOSRD
+preplace inst mipi_csi2_rx_subsyst_0 -pg 1 -lvl 4 -x 1090 -y 370 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 7 -x 2160 -y 420 -defaultsOSRD
+preplace inst reset_100MHz -pg 1 -lvl 3 -x 680 -y 410 -defaultsOSRD
+preplace inst reset_300MHz -pg 1 -lvl 3 -x 680 -y 110 -defaultsOSRD
+preplace inst reset_200MHz -pg 1 -lvl 4 -x 1090 -y 170 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 9 -x 3150 -y 510 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 10 -x 3450 -y 550 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 6 -x 1770 -y 520 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 130 -y 480 -defaultsOSRD
+preplace inst xlconstant_raspi -pg 1 -lvl 10 -x 3450 -y 60 -defaultsOSRD
+preplace netloc clk_wiz_0_clk_out3 1 2 6 490 520 910 500 1280 430 1660 440 1950 540 2390J
+preplace netloc clk_wiz_0_clk_out_200 1 2 2 480J 510 870
+preplace netloc clk_wiz_0_locked 1 2 2 470 210 NJ
+preplace netloc clk_wiz_0_out_100MHz 1 2 8 500 530 890 580 NJ 580 NJ 580 1930 550 2380 520 3010 620 3300J
+preplace netloc reset_100MHz_peripheral_aresetn 1 3 7 900 590 NJ 590 NJ 590 1960 560 NJ 560 3020 590 3310J
+preplace netloc reset_300MHz_peripheral_aresetn 1 3 3 880 490 1290 420 1670J
+preplace netloc xlconstant_0_dout 1 6 1 1940J 480n
+preplace netloc xlconstant_1_dout 1 1 1 NJ 480
+preplace netloc xlconstant_2_dout 1 10 1 NJ 60
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 1 8 250 620 NJ 620 NJ 620 NJ 620 NJ 620 NJ 620 NJ 620 2970
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 2 7 510 10 920 70 NJ 70 NJ 70 NJ 70 NJ 70 2970
+preplace netloc axi_iic_0_IIC 1 10 1 NJ 530
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 7 1 N 400
+preplace netloc axis_subset_converter_0_M_AXIS 1 5 1 N 340
+preplace netloc mipi_csi2_rx_subsyst_0_video_out 1 4 1 N 320
+preplace netloc mipi_phy_if 1 0 4 NJ 310 NJ 310 NJ 310 NJ
+preplace netloc raw10_to_y8_pack_0_m_axis 1 6 1 1870 360n
+preplace netloc smartconnect_0_M00_AXI 1 3 7 920 600 NJ 600 NJ 600 NJ 600 NJ 600 NJ 600 3290
+preplace netloc smartconnect_0_M01_AXI 1 6 4 1970 610 NJ 610 NJ 610 3280
+preplace netloc smartconnect_0_M02_AXI 1 9 1 N 530
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 8 1 2990 400n
+levelinfo -pg 1 0 130 350 680 1090 1440 1770 2160 2680 3150 3450 3600
+pagesize -pg 1 -db -bbox -sgen -130 0 3780 630
+"
+}
+{
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"3",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

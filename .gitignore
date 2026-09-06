@@ -1,0 +1,52 @@
+# build directory
+/build
+/export
+/logs
+_ide/
+
+# some files
+*.o
+*.d
+*.log
+*.lock
+*.bin
+*.pdi
+*.vitisWorkspace.json
+
+# Vivado generated files
+vivado/*.cache/
+vivado/*.gen/
+vivado/*.hw/
+vivado/*.ip_user_files/
+vivado/*.runs/
+.Xil/
+*.dcp
+
+# Vivado logs
+*.jou
+*.str
+vivado_pid*.str
+
+# HLS temporary files
+hls/**/.cache/
+hls/**/compile_commands.json
+hls/**/*.log
+hls/**/*.jou
+hls/**/*.lock
+
+# Python / Jupyter temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# editor temporary files
+*~
+*.swp
+*.tmp
+
+# Generated hardware files
+*.bit
+*.hwh
+
+# HLS generated work directory
+hls/Raw10_to_Y8_pack/Raw10_to_Y8_pack/

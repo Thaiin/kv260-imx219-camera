@@ -1,0 +1,16 @@
+{
+  "name": "Raw10_to_Y8_pack",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "Raw10_to_Y8_pack",
+    "csim_args": "",
+    "cosim_args": ""
+  },
+  "useSysrootToolchain": false,
+  "template": "empty_hls_component",
+  "templateFlow": "VITIS"
+}
